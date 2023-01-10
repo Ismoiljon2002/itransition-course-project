@@ -1,0 +1,56 @@
+.createReviewComponent {
+    width: 90%;
+    .card {
+        min-height: 600px;
+        border-radius: 20px;
+        box-shadow: 0px 48px 128px rgba(0, 0, 0, 0.2);
+        padding: 30px 50px;
+
+        button {
+            width: 30%;
+            margin: 20px 0;
+        }
+    }
+}
+
+.sub-header {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.draggable-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    border: 4px dashed #777;
+    box-shadow: 0 0 20px #adadad;
+    padding: 20px;
+    font-size: 12px;
+
+    input {
+        z-index: 1;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    img {
+        z-index: 2;
+        position: absolute;
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+}

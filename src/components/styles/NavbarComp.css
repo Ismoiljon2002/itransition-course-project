@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+* {
+  font-family: "Inter", "Oswald", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden !important;
+  min-height: 100vh;
+}
+
+body {
+  font-family: "Inter", "Oswald", sans-serif !important;
+}
+
+.home,
+.signUp,
+.user-dashboard,
+.not-found {
+  min-height: 100vh;
+  padding: 80px 0;
+  position: relative;
+  transition: 0.3s ease;
+}
+
+.btn {
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.btn-danger {
+  background-color: #fa3c28;
+  border: 1px solid #fa3c28;
+}
+.btn-danger:hover {
+  background-color: #ffffff;
+  color: #fa3c28;
+}
+
+.btn-primary {
+  background-color: #0f45da;
+  border: 1px solid #0f45da;
+}
+.btn-primary:hover {
+  background-color: #ffffff;
+  color: #0f45da;
+}
+
+.col-md-3,
+.col-md-4,
+.col-md-6,
+.col-md-9,
+.col-sm-3,
+.col-sm-6,
+.col-sm-9 {
+  float: left;
+}
+
+.clr {
+  clear: both;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+/* ====  SCROLLBAR === */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f8f8f8;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0e0f11;
+  border-radius: 3.5px;
+  box-shadow: 0 0 5px #0e0f11;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0f45da;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.navbar {
+  background-color: #191e25 !important;
+  min-height: 90px;
+}
+.navbar .MuiAutocomplete-root, .navbar .MuiInputBase-root {
+  background-color: #fff;
+  border-radius: 6px;
+  height: 50px;
+}
+.navbar .MuiInputBase-root {
+  height: 50px;
+}
+.navbar .createReview {
+  padding: 10px 20px;
+  margin: 0 20px;
+}
+.navbar .createReview:hover {
+  color: #fff;
+  background-color: rgba(250, 60, 40, 0.8);
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-size: 20px;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 10px;
+}
+.nav-link:hover, .nav-link:focus, .nav-link.active {
+  color: #fa3c28 !important;
+  opacity: 1;
+}
+
+.goog-te-combo {
+  height: 48px;
+  width: 150px;
+  font-size: 16px !important;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  padding: 8px 13px;
+  margin-top: 17px !important;
+}
+
+.goog-logo-link {
+  display: none !important;
+}
+
+.goog-te-gadget {
+  color: transparent !important;
+}/*# sourceMappingURL=NavbarComp.css.map */

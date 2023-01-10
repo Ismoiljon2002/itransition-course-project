@@ -1,0 +1,55 @@
+@import "../base";
+
+.light {
+    .home,
+    .signUp,
+    .user-dashboard, 
+    .not-found {background-color: $light-bg-color}
+    // Home
+    .home-review {
+        background-color: #fff;
+        // .title, .by-whom {color: $header-dark-color;}
+        p, .rate {color: #989bad}
+    }
+    // user-dashboard
+    // .user-dashboard h3, .home h2 {color: $header-dark-color;}
+    .review {
+        background-color: #fff;
+        h2, p, .badge {color: $header-dark-color ;}
+    }
+
+    
+}
+
+.dark {
+    .home,
+    .signUp,
+    .user-dashboard,
+    .not-found {background-color: $dark-bg-color2}
+    // home
+    .home-review {
+        background-color: $dark-bg-color3;
+        .title, .by-whom {color: #fff}
+        p, .rate {color: #ffffff99}
+    }
+    // user-dashboard
+    .user-dashboard h3, 
+    .home h2,
+    .not-found h3,
+    .not-found h2 {color: #fff;}
+    .review {
+        background-color: $navbar-bg-color;
+        h2, p, .badge {color: #fff}
+    }
+    .createReviewComponent {
+        .card {background-color: $navbar-bg-color;}
+        * {color: #fff;}
+        .css-iljtu2-MuiRating-root {color: #faaf00;}
+        input[type="file"] {
+            background-color: #333;
+            &:hover {background-color: #222;}
+        }
+        button:hover {color: $blue; background-color: transparent; box-shadow: 0 0 8px;}
+    }
+
+}

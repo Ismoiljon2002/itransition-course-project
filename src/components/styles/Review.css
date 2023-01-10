@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+* {
+  font-family: "Inter", "Oswald", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden !important;
+  min-height: 100vh;
+}
+
+body {
+  font-family: "Inter", "Oswald", sans-serif !important;
+}
+
+.home,
+.signUp,
+.user-dashboard,
+.not-found {
+  min-height: 100vh;
+  padding: 80px 0;
+  position: relative;
+  transition: 0.3s ease;
+}
+
+.btn {
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.btn-danger {
+  background-color: #fa3c28;
+  border: 1px solid #fa3c28;
+}
+.btn-danger:hover {
+  background-color: #ffffff;
+  color: #fa3c28;
+}
+
+.btn-primary {
+  background-color: #0f45da;
+  border: 1px solid #0f45da;
+}
+.btn-primary:hover {
+  background-color: #ffffff;
+  color: #0f45da;
+}
+
+.col-md-3,
+.col-md-4,
+.col-md-6,
+.col-md-9,
+.col-sm-3,
+.col-sm-6,
+.col-sm-9 {
+  float: left;
+}
+
+.clr {
+  clear: both;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+/* ====  SCROLLBAR === */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f8f8f8;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0e0f11;
+  border-radius: 3.5px;
+  box-shadow: 0 0 5px #0e0f11;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0f45da;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.review {
+  width: 90%;
+  overflow: hidden;
+  border-radius: 30px;
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+  transition: 0.3s ease;
+}
+.review .img-field {
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.review .card-body {
+  padding: 30px;
+}
+.review .author, .review .date {
+  display: inline-block;
+  padding-right: 20px;
+  font-size: 14px;
+}
+.review .author span, .review .date span {
+  font-weight: 600;
+}
+.review .css-i4bv87-MuiSvgIcon-root {
+  color: #fa3c28;
+}
+
+.MuiRating-root {
+  margin: 10px 0 15px;
+}/*# sourceMappingURL=Review.css.map */

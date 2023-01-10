@@ -1,0 +1,57 @@
+@import '../../base';
+
+.home-review {
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba($dark-bg-color1, 0.17);
+    overflow: hidden;
+    border: none;
+    transition: 0.3s ease;
+
+    .card-header {
+        width: 100%;
+        height: 200px;
+        max-height: 250px;
+        border: none;
+        @include setBgImg;
+    }
+    .card-body {
+        padding: 13px 15px 20px;
+
+        .collection-name {
+            font-size: 11px;
+            padding: 5px;
+            letter-spacing: 0.7px;
+            border-radius: 6px;
+            font-weight: 500;
+            background: rgba(235, 81, 40,0.1);
+            text-transform: capitalize;
+        }
+        .rate {
+            font-size: 11px;
+            transition: 0.3s ease;
+            padding-left: 10px;
+        }
+        .title {
+            font-size: 20px;
+            line-height: 1.4;
+            transition: 0.3s ease;
+            font-weight: 600;
+            &:hover {
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
+        p {
+            text-transform: capitalize;
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: 0.2px;
+            .by-whom {
+                font-weight: 600;
+                transition: 0.3s ease;
+                padding-right: 7px;
+            }
+        }
+    }
+}

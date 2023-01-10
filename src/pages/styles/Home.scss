@@ -1,0 +1,21 @@
+@import '../../base';
+
+.home {
+    .col-md-3 {
+        padding: 20px 13px;
+    }
+    h2 {
+        position: relative;
+        padding-left: 25px;
+    }
+    h2::before {
+        content: '';
+        position: absolute;
+        width: 4px;
+        height: 26px;
+        margin: 5px 15px 0 -15px;
+        border-radius: 1px;
+        box-shadow: 0 0 6px rgba($orange, .8);
+        background-color: $orange;
+    }
+}

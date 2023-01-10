@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+* {
+  font-family: "Inter", "Oswald", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden !important;
+  min-height: 100vh;
+}
+
+body {
+  font-family: "Inter", "Oswald", sans-serif !important;
+}
+
+.home,
+.signUp,
+.user-dashboard,
+.not-found {
+  min-height: 100vh;
+  padding: 80px 0;
+  position: relative;
+  transition: 0.3s ease;
+}
+
+.btn {
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.btn-danger {
+  background-color: #fa3c28;
+  border: 1px solid #fa3c28;
+}
+.btn-danger:hover {
+  background-color: #ffffff;
+  color: #fa3c28;
+}
+
+.btn-primary {
+  background-color: #0f45da;
+  border: 1px solid #0f45da;
+}
+.btn-primary:hover {
+  background-color: #ffffff;
+  color: #0f45da;
+}
+
+.col-md-3,
+.col-md-4,
+.col-md-6,
+.col-md-9,
+.col-sm-3,
+.col-sm-6,
+.col-sm-9 {
+  float: left;
+}
+
+.clr {
+  clear: both;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+/* ====  SCROLLBAR === */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f8f8f8;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0e0f11;
+  border-radius: 3.5px;
+  box-shadow: 0 0 5px #0e0f11;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0f45da;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.light .home,
+.light .signUp,
+.light .user-dashboard,
+.light .not-found {
+  background-color: #f8f8f8;
+}
+.light .home-review {
+  background-color: #fff;
+}
+.light .home-review p, .light .home-review .rate {
+  color: #989bad;
+}
+.light .review {
+  background-color: #fff;
+}
+.light .review h2, .light .review p, .light .review .badge {
+  color: #161f38;
+}
+
+.dark .home,
+.dark .signUp,
+.dark .user-dashboard,
+.dark .not-found {
+  background-color: #0b223f;
+}
+.dark .home-review {
+  background-color: #0c1a2d;
+}
+.dark .home-review .title, .dark .home-review .by-whom {
+  color: #fff;
+}
+.dark .home-review p, .dark .home-review .rate {
+  color: rgba(255, 255, 255, 0.6);
+}
+.dark .user-dashboard h3,
+.dark .home h2,
+.dark .not-found h3,
+.dark .not-found h2 {
+  color: #fff;
+}
+.dark .review {
+  background-color: #191e25;
+}
+.dark .review h2, .dark .review p, .dark .review .badge {
+  color: #fff;
+}
+.dark .createReviewComponent .card {
+  background-color: #191e25;
+}
+.dark .createReviewComponent * {
+  color: #fff;
+}
+.dark .createReviewComponent .css-iljtu2-MuiRating-root {
+  color: #faaf00;
+}
+.dark .createReviewComponent input[type=file] {
+  background-color: #333;
+}
+.dark .createReviewComponent input[type=file]:hover {
+  background-color: #222;
+}
+.dark .createReviewComponent button:hover {
+  color: #0f45da;
+  background-color: transparent;
+  box-shadow: 0 0 8px;
+}/*# sourceMappingURL=style.css.map */

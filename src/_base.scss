@@ -1,0 +1,125 @@
+// Colors
+$navbar-bg-color: #191e25;
+$light-bg-color: #f8f8f8;
+$dark-bg-color1: #0e0f11;
+$dark-bg-color2: #0b223f;
+$dark-bg-color3: #0c1a2d;
+$blue: #0f45da;
+$orange: #fa3c28;
+$header-dark-color: #161f38;
+
+// Fonts 
+
+// Oswald regular
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+// Poppins
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+// Inter
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+* {
+  font-family: 'Inter', 'Oswald', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden !important;
+  min-height: 100vh;
+}
+
+body {
+    font-family: 'Inter', 'Oswald', sans-serif !important;
+}
+
+// set min-height to all the pages
+.home, 
+.signUp, 
+.user-dashboard,
+.not-found {
+    min-height: 100vh; 
+    padding: 80px 0;
+    position: relative;
+    transition: 0.3s ease;
+}
+
+// Customize all buttons
+.btn {
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  font-weight: 600;
+}
+.btn-danger {
+  background-color: $orange;
+  border: 1px solid $orange;
+  &:hover {
+    background-color: #ffffff;
+    color: $orange;
+  }
+}
+
+.btn-primary {
+  background-color: $blue;
+  border: 1px solid $blue;
+  &:hover {
+    background-color: #ffffff;
+    color: $blue;
+  }
+}
+
+
+.col-md-3,
+.col-md-4,
+.col-md-6,
+.col-md-9,
+.col-sm-3,
+.col-sm-6,
+.col-sm-9 {
+  float: left;
+}
+
+.clr {
+  clear: both;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin setBgImg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+/* ====  SCROLLBAR === */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $light-bg-color;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $dark-bg-color1;
+  border-radius: 3.5px;
+  box-shadow: 0 0 5px $dark-bg-color1;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $blue;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
