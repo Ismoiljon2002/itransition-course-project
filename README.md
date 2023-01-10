@@ -1,4 +1,4 @@
-# You can see server [here](https://github.com/Ismoiljon2002/itransition-course-project-server).
+# You can see server [here](https://github.com/Ismoiljon2002/course-project-server).
 
 # Getting Started with Create React App
 
